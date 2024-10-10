@@ -13,6 +13,10 @@ app.get("/random", (req, res) => {
   res.json(jokes[randomIndex]);
 });
 
+
+// new comment
+
+
 //2. GET a specific joke
 app.get("/jokes/:id", (req, res) => {
   const id = parseInt(req.params.id);
